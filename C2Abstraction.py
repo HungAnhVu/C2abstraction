@@ -9,6 +9,9 @@ class C2Configuration:
             "Meterpreter": {
                 "ls": "ls",
                 "ps": "ps",
+                "pwd": "pwd",
+                "kill": "kill",
+                "ps": "ps",
             },
             "AnotherC2Malware": {
                 "ls": "list",
@@ -65,7 +68,8 @@ class C2Client:
 
         if self.config.C2_malware_name == "Meterpreter":
             # Start metasploit handler at the attacker machine
-            output, error = self.deploy_meterpreter()
+            #output, error = self.deploy_meterpreter()
+            return
 
     def ls(self):
         map = self.config.map_abstraction_cmd_to_actual_Cmd[self.config.C2_malware_name]
@@ -74,7 +78,9 @@ class C2Client:
         print(output)
 
     def pwd(self):
-        output, error = self.execute_command('pwd')
+        map = self.config.map_abstraction_cmd_to_actual_Cmd[self.config.C2_malware_name]
+        actual_cmd_to_send = map["pwd"]
+        output, error = self.execute_command(actual_cmd_to_send)
         print(output)
 
     def cd(self, directory):
@@ -96,7 +102,10 @@ class C2Client:
         pass
 
     def ps(self):
-        pass
+        map = self.config.map_abstraction_cmd_to_actual_Cmd[self.config.C2_malware_name]
+        actual_cmd_to_send = map["ps"]
+        output, error = self.execute_command(actual_cmd_to_send)
+        print(output)
 
     def killps(self):
         pass
