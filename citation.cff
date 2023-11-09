@@ -1,0 +1,7 @@
+@software{HungVu_IDS_Testing,
+  author = {Hung Anh Vu},
+  title = {{My Research Testing Evironment}},
+  url = {https://github.com/HungAnhVu/C2abstraction},
+  version = {1.0.0},
+  year = {2023}
+}
