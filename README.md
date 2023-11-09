@@ -66,10 +66,10 @@ Mouse Script:
 
 
 # Citation
-@Unpublished{HungVu_IDS_TESTING_C2,
-  author = {Hung Anh Vu},
-  title = {{Research Testing Environment}},
-  url = {https://github.com/HungAnhVu/C2abstraction},
-  version = {1.0.0},
-  year = {2023}
-}
+    @Unpublished{HungVu_IDS_TESTING_C2,
+      author = {Hung Anh Vu},
+      title = {{Research Testing Environment}},
+      url = {https://github.com/HungAnhVu/C2abstraction},
+      version = {1.0.0},
+      year = {2023}
+    }
