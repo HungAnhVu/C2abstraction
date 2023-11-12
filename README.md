@@ -57,9 +57,10 @@ Victim - Another virtual machine (in this case using Windows)
 
 NOTE: What is the difference between covenant and metasploit?
 
-        - Covenant has a web GUI that requires a script to control the mouse to deploy the malware
+- Covenant has a web GUI that requires a script to control the mouse to deploy the malware
 
 How to download covenant/introduction to covenant: https://www.youtube.com/watch?v=BLMW0fougFM
+
 How to use the interface: https://www.youtube.com/watch?v=iX_qsbbNk2w
 
 Mouse Script:
