@@ -40,7 +40,7 @@ class C2Client:
         print(output)
 
         #Currently we have to deploy the payload ourselves. I am doing it by setting up a webserver that has the payload.
-        #How to do this: go to 'ShellCodes' and type in command 'python3 -m http.server
+        #How to do this: go to 'ShellCodes' and type in command 'python3 -m http.server'
 
         #Now we have to set up a reverse tcp listener using metasploit
         target_ip = '192.168.239.128'        #set host_ip here
