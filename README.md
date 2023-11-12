@@ -77,8 +77,8 @@ How to use the interface: https://www.youtube.com/watch?v=iX_qsbbNk2w
         
 
 Mouse Script:
-    - This python file is used to automatically control your mouse to create a listener on the GUI
-      and create the "grunt" (used for collecting information)
+    - This python file is used to provide examples of how commands for automatically controlling your mouse to navigate a webpage work.
+    - This is important for navigating the GUI of Covenant
 
 
 
