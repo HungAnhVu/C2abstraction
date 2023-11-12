@@ -6,6 +6,7 @@ Important Notes: Updated 11-07-2023
 The important pyton files are 'C2Abstraction' and 'Mouse Script'
 
 Virtual Machines:
+
 Attacker - Kali Linux (each IP is different => Must change line 64 in setup)
 Victim - Another virtual machine (in this case using Windows)
 
