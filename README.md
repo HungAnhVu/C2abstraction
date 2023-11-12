@@ -65,6 +65,9 @@ How to use the interface: https://www.youtube.com/watch?v=iX_qsbbNk2w
 
     IMPORTANT: You must have convenant running in GIT bash at all times 
 
+    How to create a listener? 
+        - On the web GUI, click on the 'Listener' tab. Then name your listener and set the port.
+
 Mouse Script:
     - This python file is used to automatically control your mouse to create a listener on the GUI
       and create the "grunt" (used for collecting information)
