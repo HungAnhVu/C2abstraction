@@ -1,18 +1,19 @@
 # C2abstraction
-C2 abstraction layer that provides high level diverse malware attacks to test IDS. 
+C2 abstraction layer that provides high-level diverse malware attacks to test IDS. 
 
 Important Notes: Updated 11-07-2023
 
-The important pyton files are 'C2Abstraction' and 'Mouse Script'
+The important python files are 'C2Abstraction' and 'Mouse Script'
 
 Virtual Machines:
 
 Attacker - Kali Linux (each IP is different => Must change line 64 in setup)
+
 Victim - Another virtual machine (in this case using Windows)
 
-Preliminary work:
-    - Setting up Kali Linux (on VMWare, an alternative is on Oracle VM): https://www.youtube.com/watch?v=pwYH0NNWWzU
-    - Setting up victim machine: https://www.youtube.com/watch?v=nvdnQX9UkMY&t=259s
+    Preliminary work:
+        - Setting up Kali Linux (on VMWare, an alternative is on Oracle VM): https://www.youtube.com/watch?v=pwYH0NNWWzU
+        - Setting up victim machine: https://www.youtube.com/watch?v=nvdnQX9UkMY&t=259s
 
 METASPLOIT:
     How to create a payload?
