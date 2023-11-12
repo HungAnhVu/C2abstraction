@@ -67,6 +67,14 @@ How to use the interface: https://www.youtube.com/watch?v=iX_qsbbNk2w
 
     How to create a listener? 
         - On the web GUI, click on the 'Listener' tab. Then name your listener and set the port.
+        - Make sure that the IP address is correct. You can check your IP address by running the command 'ipconfig' in your terminal and use the IPv4 address.
+          To check that the listener is active, run 'netstat -ant' in your terminal and look for the port number that you specified. 
+
+    How to create the grunt to connect to the listener?
+        - On the web GUI, click on the 'Launcher' tab. Since our victim machine is windows, click on 'PowerShell' and generate the launcher
+        - Then copy and paste into the powershell of your vicitm machine. MAKE SURE TO TURN OFF YOUR WINDOWS SECURITY. 
+        - Once activated, you will get a notification on the GUI. In the 'Grunt' tab, you will see the host name. Then you can click on the active grunt and go to the 'interactive' tab to begin executing commands.
+        
 
 Mouse Script:
     - This python file is used to automatically control your mouse to create a listener on the GUI
